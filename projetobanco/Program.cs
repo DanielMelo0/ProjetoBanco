@@ -174,7 +174,7 @@ using System.Threading.Tasks;
                     Console.WriteLine("Fila vazia. Nenhum cliente para atender.");
                     return; // Sai Da Função se Não Houver Clientes
                 }
-
+                Console.WriteLine("\n=== Sessão de Atendimento ===");
                 Console.WriteLine($"Atendendo cliente: {fila[0].Nome}"); // Informa nome do Cliente a Ser Atendido
 
                 // Move todos uma posição para a esquerda (Quem Estava em 1 vai pra 0)
