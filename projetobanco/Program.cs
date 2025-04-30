@@ -16,7 +16,7 @@ using System.Threading.Tasks;
             public string Endereco { get; set; }
             public int Telefone { get; set; }
 
-            // Definição Atributos Classe Pessoa e Inserção dos Metodos Getters e Setters
+            // Definição Propriedades Classe Pessoa e Inserção dos Metodos Getters e Setters
         }
 
         class Cliente : Pessoa // Definição Classe Cliente que Estende Classe Pessoa
